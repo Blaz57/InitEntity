@@ -7,6 +7,8 @@ namespace InitEntity.Models
 {
     public class Dal : IDisposable
     {
+        //Dal : data access layer
+
         protected BddContext db;
 
         public Dal()
